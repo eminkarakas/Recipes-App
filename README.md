@@ -27,7 +27,8 @@ When you launch the application, you'll see the main page with a list of availab
 
 ## Screenshots
 
-![Ekran Resmi 2023-09-30 21 44 Arka Planı Silindi 43](https://github.com/eminkarakas/Recipes-App/assets/135707676/65fb1786-d3e0-4f5f-9b01-cfa1a0eff54f)
+![Ekran Resmi 2023-09-30 21 44 Arka Planı Silindi Arka Planı Silindi 43](https://github.com/eminkarakas/Recipes-App/assets/135707676/544699e1-184e-4077-8845-d06d298d2e9e)
+
 
 
 
