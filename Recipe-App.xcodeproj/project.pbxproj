@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85688B4F2AC8A15300C9F847 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85688B4E2AC8A15300C9F847 /* SearchBar.swift */; };
 		85D2C5FC2AC856E300BD2D00 /* Recipe_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D2C5FB2AC856E300BD2D00 /* Recipe_AppApp.swift */; };
 		85D2C5FE2AC856E300BD2D00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D2C5FD2AC856E300BD2D00 /* ContentView.swift */; };
 		85D2C6002AC856E400BD2D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D2C5FF2AC856E400BD2D00 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85688B4E2AC8A15300C9F847 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		85D2C5F82AC856E300BD2D00 /* Recipe-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D2C5FB2AC856E300BD2D00 /* Recipe_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_AppApp.swift; sourceTree = "<group>"; };
 		85D2C5FD2AC856E300BD2D00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				85D2C6092AC857F800BD2D00 /* Recipe.swift */,
 				85D2C60B2AC85BF800BD2D00 /* RecipeRow.swift */,
 				85D2C60D2AC85C3B00BD2D00 /* RecipeDetail.swift */,
+				85688B4E2AC8A15300C9F847 /* SearchBar.swift */,
 				85D2C5FF2AC856E400BD2D00 /* Assets.xcassets */,
 				85D2C6012AC856E400BD2D00 /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 				85D2C60E2AC85C3B00BD2D00 /* RecipeDetail.swift in Sources */,
 				85D2C60C2AC85BF800BD2D00 /* RecipeRow.swift in Sources */,
 				85D2C5FC2AC856E300BD2D00 /* Recipe_AppApp.swift in Sources */,
+				85688B4F2AC8A15300C9F847 /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var searchText = ""
+    
     var body: some View {
         NavigationView {
-            List(recipeData) { recipe in
-                NavigationLink(destination: RecipeDetail(recipe: recipe)) {
-                    RecipeRow(recipe: recipe)
+            VStack {
+                SearchBar(searchText: $searchText)
+                List(recipeData.filter { searchText.isEmpty ? true : $0 .name.localizedCaseInsensitiveContains(searchText) }) { recipe in
+                    NavigationLink(destination: RecipeDetail(recipe: recipe)) {
+                        RecipeRow(recipe: recipe)
+                    }
                 }
             }
             .navigationBarTitle("Food Recipes")
